@@ -42,5 +42,7 @@ module.exports = {
         'no-new': 'off',
         'no-new-require': 'error',
         'indent': ['error', 4, {'SwitchCase': 1}],
+        'comma-dangle': ['error', 'never'],
+        'linebreak-style': ['error', 'windows']
     }
 };
